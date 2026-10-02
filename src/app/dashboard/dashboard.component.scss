@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+
+
+.general{
+    background-image: linear-gradient(to right,#A03CEA, #FB6564);
+    width: 100%;
+    height: 100vh;
+    
+
+
+
+    button{
+        cursor: pointer;
+    }
+    p{
+        color: #3E334E;
+    }
+
+    .white{
+        background-color: #fff;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 5%;
+    }
+
+
+
+    .header{
+        display: flex;
+        height: 15%;
+        width: 80%;
+        gap: 15%;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .marca{
+        display: flex;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        gap: 16px;
+        margin-top:30px;
+
+        img{
+            width: 48px;
+            height: 48px;
+            transition: ease 2s;
+
+            &:hover{
+                  transform: rotate(180deg);
+
+            }
+        }
+        p{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 30px;
+        }
+    }
+
+    .form{
+        width: 60%;
+        display: flex;
+        gap: 24px;
+        height: 90%;
+        align-items: center;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 16px;
+
+        .contendInput{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            a{
+                color: #3C2C20;
+                 font-family: Montserrat;
+            }
+            
+            input{
+                width: 265px;
+                height: 12px;
+                opacity: 1;
+                gap: 8px;
+                border-radius: 8px;
+                padding: 16px;
+                border: 1px solid #C1A28B;
+                
+                &:focus{
+                    background-color: #F1EAE4;
+                // border: 1px solid #daab87;
+                        outline: none;
+
+                }
+
+            }
+        }
+        .dos{
+            margin-top: 25px;
+
+            .ojo{
+                display: flex;
+                align-items: center;
+                margin-bottom: 14px;
+            }
+
+            img{
+                width: 18px;
+                height: 18px;
+                margin-left: -35px;
+                cursor: pointer;
+            }
+        }
+
+        .btn{
+            background-image: linear-gradient(to right,#A03CEA, #FB6564);
+            color: white;
+            width:17%;
+            border: none;
+            height: 43px;
+            border-radius: 8px;
+            font-family: Montserrat;
+            margin-top: 13px;
+            font-weight: 500;
+            margin-left: 2%;
+            transition: ease 250ms;
+
+              &:hover{
+                width: 102%;
+                height: 45px;
+                transform: translateX(-5px);
+                transform: translateY(-5px);
+
+            
+            }
+                }
+
+
+    }
+
+
+.contentGeneral{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 9%;
+}
+
+.fotos{
+    width: 50%;
+    margin-left: 10%;
+    .welcome{
+        font-family: Sora;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 48px;
+        margin-bottom: 24px;
+
+    }
+    .join{
+        font-family: Sora;
+        font-weight: 300;
+        font-style: Light;
+        font-size: 20px;
+        color:#3C2C20 ;
+        margin-bottom: 40px;
+    }
+
+
+    .Recent{
+        color: #3C2C20;
+        font-family: Sora;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        margin-bottom: 25px;
+
+    }
+    .fotosPersonas{
+        display: flex;
+        gap: 16px;
+
+
+        .fotoLabel{
+            border: 1px solid #C1A28B;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 146px;
+            height: 148px;
+            gap: 16px;
+            border-radius: 16px;
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 14px;
+            transition: ease 250ms;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #F1EAE4;
+                transform: translateX(-5px);
+                                transform: translateY(-5px);
+
+            }
+
+
+        }
+
+        .tres{
+            background-color: #F1EAE4;
+
+        }
+    }
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    
+}
+
+.conytenidDos{
+    width: 50%;
+
+    // p{
+    //     color: red;
+    // }
+    .our{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        margin-bottom: 16px;
+
+    }
+
+    .get{
+        margin-bottom: 46px;
+        font-family: Montserrat;
+        font-weight: 300;
+        font-style: Light;
+        font-size: 17px;
+    }
+
+    button{
+        background-image: linear-gradient(to right,#A03CEA, #FB6564);
+        width: 320px;
+        height: 50px;
+        color: white;
+        border-radius: 8px;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 16px;
+        border: none;
+        margin-bottom: 24px;
+        transition: ease 250ms;
+        transition: ease 250ms;
+
+        &:hover{     
+            transform: translateX(-5px);
+            transform: translateY(-5px);
+
+            }
+
+    }
+
+    .or{
+        font-family: Montserrat;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 13.5px;
+        color: #3E334E;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .todo{
+        width: 37%;
+    }
+
+    .links{
+        display: flex;
+        gap:16px ;
+        font-family: Montserrat;
+        width: 106%;
+
+
+        .redes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #AFA2C3;
+            width: 114px;
+            height: 38px;
+            gap: 8px;
+            border-radius: 4px;
+            font-family: Montserrat;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 14px;
+            text-align: center;
+            cursor: pointer;
+            transition: ease 250ms;
+
+            &:hover{
+                background-color: #F1EAE4;
+                width: 122px;
+                height: 42px;
+
+
+
+            }
+    
+        }
+    }
+}
+
+}
+
+.black::placeholder{
+    color: #3C2C20;
+}
+
+
+@media (max-width: 428px){
+
+    .general{
+    background-image: linear-gradient(to right,#A03CEA, #FB6564);
+    width: 100vw;
+    height: 100vh;
+    
+
+    }
+        .white{
+            display: none;
+        }
+
+}
+
+
+
+
+
+
+
+
+// checar el active po focus 
+// bolitas del password
